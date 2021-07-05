@@ -1,0 +1,26 @@
+{
+  "name": "netacea_fizzbuzz",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "jest",
+    "start": "./node_modules/ts-node/dist/bin.js src/app.ts"
+  },
+  "author": "Lee Martin",  
+  "jest": {
+    "testMatch": ["**/*.test.ts"]
+  },
+  "dependencies": {
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.23",
+    "@types/node": "^16.0.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "ts-jest": "^26.5.6"
+  }
+}
